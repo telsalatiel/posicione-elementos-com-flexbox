@@ -7,6 +7,15 @@
   display: flex;
 }
 
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 20%;
+}
+
 .rodapePrincipal .container { 
   display: flex; 
   justify-content: space-between; 
@@ -33,8 +42,7 @@
 }
 
 .rodapePrincipal-navMap-list { 
-  display: flex; 
-  flex-direction: column; 
-  flex-wrap: wrap; 
+  display: flex;  
+  flex-flow: column wrap;
   height: 260px; 
 }
